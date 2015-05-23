@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/05/2015, 16:52:55
+    Author     : antoniojose
+*/
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+#BarraSuperior {
+    background-color: #53a5f6;
+    padding: 10px;
+    color:#fefefe;
+}
+
+.oculto {
+    display : none;
+}
+
+img.image-circular {
+    border-radius: 150px;
+    width: 150px;
+    height: 220px;
+}
+
+.oculto {
+    display : none;
+}
+
+.Link {
+    font-size: 1.5em;
+    color:#fefefe;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+#CadImovel, #CadProdutos, #CadServicos, #CadVeiculos {
+    height: 240px;
+}
+
+.imgRetina {
+    width: 250px;
+    height: 240px;
+}
+
+.Link:hover {
+    color: #fbfdfd;
+    text-decoration: none;
+}
+
+.descolar {
+    margin-top: 2%;
+}
+
+.hoverzoom {
+    position: relative;
+    width: 350px;
+    overflow: hidden;
+}
+.hoverzoom > img {
+   width: 100%; 
+	border-radius: 2px;
+	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover > img {
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+.hoverzoom .retina{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);    
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+ 
+    -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000); 
+}
+.hoverzoom:hover .retina {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+    
+}
+.hoverzoom .retina p {
+	color: #fff;
+}
+.hoverzoom .retina a {
+	display: block;
+	width: 150px;
+	background: #6fc5e9;
+	border: 1px solid #59afd4;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 16px auto 0;
+}
