@@ -9,7 +9,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Classificados do Sertão - Upside Solutions&trade;</title>
+        <title>Cadastro de Usuários - Upside Solutions&trade;</title>
         <?php Css::Load(); ?>
         <?php Css::Load("registro.css"); ?>
     </head>
